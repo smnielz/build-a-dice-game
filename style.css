@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(rgb(231, 239, 231), rgb(44, 223, 68));
+    text-align: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.conatiner{
+    width: 400px;
+    background: white;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 5px 5px black;;
+}
+
+.score-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-div .input{
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: rgb(243, 209, 147);
+    text-align: center;
+    font-size: 60px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.score-div h1,
+.conatiner h1{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rollDice button{
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background: rgb(243, 153, 168);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#restart-btn{
+    background:rgb(243, 105, 128);
+}
+
+.rollDice .visible{
+    display: none;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+.bottom{
+    padding: 15px;
+}
+
+@keyframes win {
+    0% {color: red;}
+    50% {font-size: 20px; color: orange;}
+    100% {color: green;}
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="conatiner">
+            <div class="player-turn">
+                <h1 id="playerTurn">Player 1 Turn</h1>
+            </div>
+            <div class="score-div">
+                <div class="player-div">
+                    <h1>Score: <span id="scoreOne">0</span></h1>
+                    <div class="input active" id="playerOneScore"> - </div>
+                </div>
+                <div class="player-div">
+                    <h1>Score: <span id="scoreTwo">0</span></h1>
+                    <div class="input" id="playerTwoScore"> - </div>
+                </div>
+            </div>
+            <div class="rollDice">
+                <button id="rollDice-btn" >Roll Dice</button>
+                <button id="restart-btn" class="visible">Restart</button>
+            </div>
+            <div class="bottom">
+                <h1>Score:</h1>
+                <div class="score-div">
+                    <div class="player-div">
+                        <div class="input" id="first">0</div>
+                    </div>
+                    <div class="player-div">
+                        <div class="input" id="second">0</div>
+                    </div>
+                </div>
+             </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
